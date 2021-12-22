@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.cointainer {
+    width: 1080px;
+    margin: auto;
+}
+.header {
+    background-color: #D3E3E3;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.main{
+    width:800px;
+    margin:auto;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+p{
+    padding:10px;
+}
+.footer{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    padding: 10px;
+    clear: both;
+}
+.footer1 {
+    width:50%;
+}
+.footer2{
+    width:50%;
+}
+.footer p {
+    padding: 0px;
+}
