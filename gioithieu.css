@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 .cointainer {
-    width: 1080px;
     margin: auto;
+    font-family: "Times New Roman", Times, serif;
 }
 .header {
     background-color: #D3E3E3;
@@ -25,19 +25,11 @@ p{
     padding:10px;
 }
 .footer{
-    margin:10px;
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgrey;
+    background-color: #181818;
     padding: 10px;
-    clear: both;
+    color: white;
 }
-.footer1 {
-    width:50%;
-}
-.footer2{
-    width:50%;
-}
-.footer p {
-    padding: 0px;
+.footer p,h1{
+    padding:0;
+    text-align: left;
 }

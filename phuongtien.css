@@ -3,7 +3,7 @@
 }
 .cointainer {
     margin: auto;
-    width: 1080px;
+    font-family: "Times New Roman", Times, serif;
 }
 .header {
     background-color: #D3E3E3;
@@ -21,16 +21,7 @@
     width:600px;
 }
 .footer{
-    margin:10px;
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgrey;
+    background-color: #181818;
     padding: 10px;
-    clear: both;
-}
-.footer1 {
-    width:50%;
-}
-.footer2{
-    width:50%;
+    color: white;
 }
