@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.cointainer {
-    margin: auto;
+.container { 
     font-family: "Times New Roman", Times, serif;
 }
 .header {
@@ -13,9 +12,8 @@
     padding: 10px;
     margin: 10px;
 }
-.main{
-    width: 800px;
-    margin: auto;
+.main p{
+    text-align: justify;
 }
 .footer{
     background-color: #181818;

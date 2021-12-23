@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.cointainer {
-    margin: auto;
+.container { 
     font-family: "Times New Roman", Times, serif;
 }
 .menu-text {
@@ -11,29 +10,11 @@
 .m0{
     margin:0;
 }
-.main{
-    background: url(./New\ folder/banner.jpg);
-    background-size: contain;
-    height: 800px;
-    background-repeat: no-repeat;
-}
-div .main p{
-    color: white;
-    font-size: 75px;
-    font-family: 'Lobster', cursive;
+img{
+    width:100%;
 }
 .footer{
     background-color: #181818;
     padding: 10px;
     color: white;
-}
-@media only screen and (max-width:992px) and (min-width:768px){
-    div .main p{
-        font-size:40px;
-    }
-}
-@media only screen and (max-width:768px) {
-    div .main p{
-        font-size:25px;
-    }
 }

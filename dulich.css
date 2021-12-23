@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.cointainer {
-    margin: auto;
+.container {
     font-family: "Times New Roman", Times, serif;
 }
 .header {
@@ -13,27 +12,20 @@
     padding: 10px;
     margin: 10px;
 }
-.main{
-    margin: auto;
-    width: 700px;
+img{
+    width:100%;
+}
+.main p{
+    text-align: justify;
 }
 h1 {
     text-align: center;
 }
 .footer{
-    margin:10px;
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgrey;
+    background-color: #181818;
     padding: 10px;
-    clear: both;
-}
-.footer1 {
-    width:50%;
-}
-.footer2{
-    width:50%;
+    color: white;
 }
 .footer h1{
-    text-align:left;
+    text-align: left;
 }
